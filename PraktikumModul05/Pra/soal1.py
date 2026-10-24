@@ -1,12 +1,10 @@
-MaafYaLagiSibukBaruSelesaiNgoding = int(input("Masukkan jumlah data: "))
+banyak = int(input("Masukkan jumlah data: "))
 
-LohKamuProgrammer = ()
-AduhBlunderLagi = 1
+nilai = []
+i = 1
 
-while AduhBlunderLagi <= MaafYaLagiSibukBaruSelesaiNgoding:
-  apaya = int(input(f"Masukkan nilai ke-{AduhBlunderLagi}: "))
-  gatau = (apaya,)
-  LohKamuProgrammer += gatau
-  AduhBlunderLagi += 1
-
-print(f"tuple yang terbentuk: {LohKamuProgrammer}")
+while i <= banyak:
+  data = int(input(f"Masukkan nilai ke-{i}: "))
+  nilai += [data]
+  i += 1
+print(f"list yang terbentuk: {nilai}")

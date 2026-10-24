@@ -1,12 +1,14 @@
-MaafYaLagiSibukBaruSelesaiNgoding = int(input("Masukkan jumlah data: "))
+nilai = ["100","10","20","30","10","20","30","90","80","70","90","80","70","50","60","60","50","100",]
 
-LohKamuProgrammer = ()
-AduhBlunderLagi = 1
+nilai_baru = []
 
-while AduhBlunderLagi <= MaafYaLagiSibukBaruSelesaiNgoding:
-  apaya = int(input(f"Masukkan nilai ke-{AduhBlunderLagi}: "))
-  gatau = (apaya,)
-  LohKamuProgrammer += gatau
-  AduhBlunderLagi += 1
-
-print(f"tuple yang terbentuk: {LohKamuProgrammer}")
+print(f"list sebelum penghapusan: {nilai}")
+hapus = (input("Masukkan bilangan yang ingin dihapus: "))
+if hapus in nilai:
+  for i in nilai:
+    if i != hapus:
+      nilai_baru += [i]
+  print(f"list setelah penghapusan: {nilai_baru}")
+else:
+  print(f"elemen yang akan di hapus tidak terdapat didalam list")
+  print(nilai)
