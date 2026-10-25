@@ -1,3 +1,5 @@
+# 2. Buat Code untuk mengkonversikan bilangan desimal menjadi bilangan biner
+
 angka = float(input("Masukkan bilangan desimal: "))
 
 bulat = int(angka)

@@ -1,3 +1,5 @@
+# 4. Buatlah program dengan bentuk angka NIM terakhir kalian , misalnya 011
+
 nim = "260401100210"
 last_nim = nim[9:]
 

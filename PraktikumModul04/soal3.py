@@ -1,3 +1,5 @@
+# 3. Buat Code untuk mengkonversikan bilangan biner menjadi bilangan desimal
+
 biner = input("Masukkan angka biner: ")
 
 biner = biner[::-1]

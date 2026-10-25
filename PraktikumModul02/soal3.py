@@ -1,3 +1,26 @@
+# 3. Sebuah toko memberikan diskon berdasarkan total belanja dan status member.
+# Program menerima:
+# - Nama pembeli
+# - Total belanja
+# - Status member (ya/tidak)
+# - Jumlah barang
+# Ketentuannya:
+# 1. Jika total belanja >= Rp500.000, cek status member.
+# - Jika member:
+# Hitung diskon 20% dari total belanja.
+# Hitung total setelah diskon.
+# Jika total setelah diskon >= Rp500.000, dapat gratis ongkir.
+# Jika kurang dari Rp500.000, tidak mendapat gratis ongkir.
+# - Jika bukan member:
+# Hitung diskon 10%.
+# Hitung total setelah diskon.
+# Tidak mendapat gratis ongkir.
+# 2. Jika total belanja < Rp500.000:
+# Cek jumlah barang.
+# Jika jumlah barang >= 5, dapat diskon 5%.
+# Hitung total setelah diskon.
+# Jika kurang dari 5 barang, tidak mendapat diskon.
+
 namaPembeli = input("Masukkan nama anda: ")
 totalBelanja = float(input("total belanjaan: "))
 statusMember = input("status member(iya/tidak): ")
