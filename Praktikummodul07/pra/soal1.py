@@ -1,1 +1,1 @@
-kode_baru = {[""]}
+kode_baru = {["aku lutpi"]}
